@@ -1,0 +1,125 @@
+body {
+  margin: 0px;
+  border: 0px;
+  background: rgba(0, 0, 0, 0.863);
+}
+header {
+  border: 0px;
+  margin: 0px;
+  background: white;
+  padding-bottom: 20px;
+  font-size: 75px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: darkblue;
+}
+.scoreboard {
+  color: aliceblue;
+  text-align: center;
+  border-style: solid;
+  border-color: beige;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-top: 25px;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+#userlabel {
+  background-color: red;
+  border-style: solid;
+  border-color: black;
+  font-size: 20px;
+  margin-left: 470px;
+  margin-right: 100px;
+  padding-left: 25px;
+  padding-right: 25px;
+  position: absolute;
+  top: 160px;
+  left: -20px;
+}
+#computerlabel {
+  background-color: red;
+  border-style: solid;
+  border-color: black;
+  margin-left: 500px;
+  margin-right: 500px;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: absolute;
+  top: 160px;
+  right: -40px;
+}
+#userscore {
+  font-size: 50px;
+}
+#compscore {
+  font-size: 50px;
+}
+#tagline {
+  margin-top: 20px;
+  font-size: 25px;
+  background-color: blanchedalmond;
+  text-align: center;
+  margin-left: 525px;
+  margin-right: 525px;
+}
+.result {
+  color: cyan;
+  text-align: center;
+  font-size: 30px;
+}
+.shows {
+  text-align: center;
+}
+.show {
+  display: inline-block;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+#end {
+  background-color: lawngreen;
+  text-align: center;
+  font-size: 35px;
+  border-style: solid;
+  border-color: red;
+  margin-left: 550px;
+  margin-right: 550px;
+  color: darkred;
+}
+#r {
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+}
+#p {
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+}
+#s {
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+}
+.greenglow {
+  border-color: green;
+  border-style: solid;
+  border-width: 20px;
+  box-shadow: 0px 0px 10px green;
+}
+.redglow {
+  border-color: red;
+  border-style: solid;
+  border-width: 25px;
+  box-shadow: 0px 0px 10px red;
+}
+.grayglow {
+  border-color: gray;
+  border-style: solid;
+  border-width: 25px;
+  box-shadow: 0px 0px 10px gray;
+}
